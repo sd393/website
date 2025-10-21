@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlinks {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    position: absolute;
+    top: 2px;
+    right: 1rem;
+    gap: 2rem;
+}
