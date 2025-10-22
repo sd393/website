@@ -25,3 +25,27 @@
 .home {
     font-family: "San Francisco";
 }
+
+.animate_typewriter {
+  display: inline-block;
+  overflow: hidden; /* Ensures content is only revealed as typed */
+  border-right: .15em solid orange; /* The blinking cursor */
+  white-space: nowrap; /* Keeps text on a single line */
+  /*margin: 0 auto;  Gives a scrolling effect as text appears */
+  letter-spacing: .02em; /* Adjust spacing between letters */
+  animation: 
+    typing 2s steps(30, end), /* Typing animation */
+    blink-caret .75s step-end infinite; /* Blinking cursor animation */
+}
+
+/* Keyframes for the typing animation */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 12ch }
+}
+
+/* Keyframes for the blinking cursor */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; } /* Cursor color */
+}
