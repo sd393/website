@@ -5,8 +5,8 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <ul className="navlinks">
-                <li><a href="#" style={{ color: "black" }}>Notes</a></li>
-                <li><a href="#" style={{ color: "black" }}>Thoughts</a></li>
+                <li><a className="navLinkColor">Notes</a></li>
+                <li><a className="navLinkColor">Thoughts</a></li>
             </ul>
         </div>
     );

@@ -23,3 +23,13 @@
     right: 1rem;
     gap: 2rem;
 }
+
+.navLinkColor {
+    color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    .navLinkColor {
+        color: white;
+    }
+}
