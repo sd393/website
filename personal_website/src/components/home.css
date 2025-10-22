@@ -17,7 +17,7 @@
 
 @media (max-width: 768px) {
   .parent-home {
-    text-align: center;
+    right: 2rem;
   }
 }
 
