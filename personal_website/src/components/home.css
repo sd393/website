@@ -6,7 +6,7 @@
 
 .parent-home {
     position: fixed;
-    top: 4rem;
+    top: 2rem;
     left: 2rem;
     display: flex;
     flex-direction: column;
@@ -17,6 +17,7 @@
 
 @media (max-width: 768px) {
   .parent-home {
+    top: 4rem;
     right: 2rem;
   }
 }
