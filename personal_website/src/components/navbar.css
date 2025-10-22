@@ -3,8 +3,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    /*background-color: white;
-    color: #fff; */
+    /*background-color: white; */
+    color: #fff; 
     height: 40px;
     display: flex;
     flex-direction: row;
