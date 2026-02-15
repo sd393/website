@@ -1,0 +1,72 @@
+.parent-note-post {
+    position: fixed;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: none;
+    text-align: left;
+    font-family: "San Francisco";
+    overflow-y: auto;
+    max-height: calc(100vh - 4rem);
+}
+
+.parent-note-post > * {
+    max-width: 60ch;
+}
+
+@media (max-width: 768px) {
+    .parent-note-post {
+        top: 4rem;
+        right: 0;
+        padding-right: 2rem;
+    }
+
+    .note-post-content {
+        overflow-wrap: break-word;
+    }
+
+    .katex-display {
+        overflow-x: auto;
+    }
+}
+
+.note-post-back-link {
+    color: black;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.note-post-title {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+}
+
+.note-post-date {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.note-post-content {
+    line-height: 1.7;
+}
+
+.note-post-content strong {
+    font-weight: 700;
+    font-synthesis: weight;
+}
+
+@media (prefers-color-scheme: dark) {
+    .note-post-back-link {
+        color: white;
+    }
+
+    .note-post-date {
+        color: #aaa;
+    }
+}

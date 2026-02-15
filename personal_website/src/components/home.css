@@ -19,6 +19,7 @@
   .parent-home {
     top: 4rem;
     right: 2rem;
+    overflow-wrap: break-word;
   }
 }
 
