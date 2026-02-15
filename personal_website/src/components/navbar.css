@@ -24,8 +24,18 @@
     gap: 2rem;
 }
 
+.navlinks a {
+    text-decoration: none;
+}
+
 .navLinkColor {
     color: black;
+}
+
+@media (max-width: 768px) {
+    .navlinks {
+        gap: 1rem;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
