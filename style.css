@@ -1,0 +1,49 @@
+/* Samarjit Deshmukh — personal site.
+   Aesthetic: extremely minimalist, black & white, plain serif.
+   One centered column, default browser fonts, no JavaScript. */
+
+body {
+  max-width: 40em;
+  margin: 2em auto;
+  padding: 0 1em;
+  line-height: 1.5;
+}
+
+h1 { font-size: 1.6em; margin: 0 0 0.5em; }
+h3 { margin: 1.5em 0 0.4em; }
+
+img { max-width: 100%; height: auto; }
+
+p + ul { margin-top: -0.5em; }
+
+.date { color: #666; }
+.backlink { font-size: 0.9em; margin-bottom: 1.5em; }
+
+/* ---------------------------------------------------------------------------
+   Typewriter animation (disabled).
+
+   Kept from the earlier version of the home page — commented out rather than
+   deleted, in case it is wanted again. To re-enable, add the class
+   "typewriter" to the heading element.
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;                          // reveal text only as it is typed
+  border-right: .15em solid orange;          // the blinking cursor
+  white-space: nowrap;                       // keep text on a single line
+  letter-spacing: .02em;
+  animation:
+    typing 2s steps(30, end),                // typing animation
+    blink-caret .75s step-end infinite;      // blinking cursor animation
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to   { width: 12ch }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50%      { border-color: orange; }
+}
+--------------------------------------------------------------------------- */
